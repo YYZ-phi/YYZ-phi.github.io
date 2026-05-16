@@ -1,0 +1,135 @@
+<html lang="zh-CN"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>编剧文案策划作品集 | 专业创作展示</title>
+    <meta name="description" content="专业编剧、文案策划作品集展示网站，呈现优秀的剧本创作、文案策划和创意写作作品">
+    <!-- 引入Google Fonts - Inter字体 -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <!-- 引入Font Awesome图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- 引入GSAP动画库 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- 引入自定义样式 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 移动端汉堡菜单按钮 -->
+    <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+
+    <!-- 导航菜单 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-menu">
+                <a href="#portfolio" class="nav-link active">作品展示</a>
+                <a href="#contact" class="nav-link">联系方式</a>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- 作品展示区 -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">作品展示</h2>
+            
+            <!-- 作品展示 -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">全部作品</button>
+            </div>
+            
+            <!-- 作品网格 -->
+            <div class="portfolio-grid">
+                <!-- 剧本作品1 -->
+                <div class="portfolio-item screenplay">
+                    <div class="portfolio-card">
+                        <div class="card-content">
+                            <h3 class="card-title">世界观设计</h3>
+                            <button class="btn-secondary view-details" data-id="1">查看详情</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 文案策划作品1 -->
+                <div class="portfolio-item copywriting">
+                    <div class="portfolio-card">
+                        <div class="card-content">
+                            <h3 class="card-title">剧本大纲创作</h3>
+                            <button class="btn-secondary view-details" data-id="2">查看详情</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 创意写作作品1 -->
+                <div class="portfolio-item creative">
+                    <div class="portfolio-card">
+                        <div class="card-content">
+                            <h3 class="card-title">小说创作</h3>
+                            <button class="btn-secondary view-details" data-id="3">查看详情</button>
+                        </div>
+                    </div>
+                </div>
+              
+                 <div class="portfolio-item creative">
+                    <div class="portfolio-card">
+                        <div class="card-content">
+                            <h3 class="card-title">文案拆解</h3>
+                            <button class="btn-secondary view-details" data-id="4">查看详情</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式板块 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系方式</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>389148704@qq.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+86 18770570290</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>南昌大学</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- 作品详情模态框 -->
+    <div id="portfolioModal" class="modal">
+        <div class="modal-content">
+            <span class="close">×</span>
+            <div id="modalBody" class="modal-body">
+                <!-- 动态内容将通过JavaScript填充 -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 引入自定义脚本 -->
+    <script src="script.js"></script>
+
+</body></html>
