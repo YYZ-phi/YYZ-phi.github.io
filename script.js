@@ -177,12 +177,6 @@ function initPortfolioModal() {
             genre: '现实主义',
             downloadUrl: 'downloads/小说创作.pdf'
         },
-        {
-            id: 4,
-            title: '文案拆解',
-            genre: '分析',
-            downloadUrl: 'downloads/文案拆解.pdf'
-        }
     ];
     
     // 打开模态框
